@@ -5,9 +5,7 @@ const cors = require('cors');
 
 const app = express();
 
-app.use(cors({
-  origin: ["http://localhost:5173", "https://p1n3r3n.vercel.app"]
-}));
+app.use(cors());
 
 app.use(bodyParser.json());
 
